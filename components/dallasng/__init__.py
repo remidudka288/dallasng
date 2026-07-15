@@ -24,7 +24,7 @@ async def to_code(config):
     cg.add_library(
         "OneWireNg",
         None,
-        "https://github.com/pstolarz/OneWireNg.git#main",
+        "https://github.com/pstolarz/OneWireNg.git#master",
     )
 
     pin = await cg.gpio_pin_expression(config[CONF_PIN])
